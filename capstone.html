@@ -8,9 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
   </head>
-  
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Spencer Creer</a>
@@ -19,15 +17,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="portfolio.html"id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Portfolio
-              </a>
-              <div class="dropdown-menu bg-dark border-0" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item bg-dark" href="#">Capstone</a>
-                <a class="dropdown-item bg-dark" href="composites.html">Composites</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="connect.html">Connect</a>
@@ -39,20 +30,17 @@
         </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid pb-0 pt-4">
+    <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="row">
-                <h1 class="display-1 col-md-6 pt-5 about">About me.</h1>
-                <img class="col-md-6 img-fluid" src="media/profile.png" alt="Profile picture">
-            </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-body">
-            I was born in Castro Valley, California and moved to Utah at age seven. and have lived in Spanish Fork and Cedar Hills. I graduated with honors and a 4.0 GPA from Lone Peak high school. At age nineteen, I served a two year mission for the Church of Jesus Christ of Latter-Day Saints in southern Germany. I graduated with a bachelor's degree in Mechanical Engineering from Brigham Young University.
-
-            I have spent the majority of my career in business and sales roles. From 2014 to 2018, I worked as a sales manager for New Star Communications, an At&t and DirecTv dealer. I led sales teams in Texas, Missouri, and Ohio. After graduating from BYU, I have combined my sales and engineering background in multiple technical sales roles. I currently work as a Sales Engineer for Moxtek, Inc.
+            <h1 class="display-4">Composites</h1>
+            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis quisquam id tempora dignissimos corrupti libero. Excepturi, tenetur iure. Minus dolor nulla blanditiis ullam modi praesentium tenetur architecto similique temporibus?</p>
+            <img class="img-fluid" src="media/capstone.jpg" alt="Capstone project of gimbal system mounted on a tripod.">
+            <p>  For my BYU Capstone project, I worked with a team of five other graduating engineers. 
+                Our team was sponsered by L3 Technologies and tasked with making an autonomous system that could point to a give latitude, longitude, and azimuth with a high degree of accuracy. 
+                Military personel often boresight communication antenna. This is a time consuming and potentially hazardous process. L3 hoped to use our research to make the process autonomous and thereby making it safer and more efficient.
+            </p>
+            <p>                Our solution was to develop and rover and base station system that utilized RTK GPS, a Raspberry Pi, and an accelerometer. The rover was set up approximately one-hundred meters from the base unit. The base unit gimbal was lined up with the rover using a scope and leveled using an accelerometer. Once set up, the RTK would establish the position of the base unit.
+                Once location was established, the gimbal would rotate to point to a latitude, longitude, and azimuth that was entered into the Raspberry Pi.</p>
         </div>
       </div>
       
