@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -33,9 +34,6 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="connect.html">Connect</a>
           </li>
         </ul>
@@ -45,31 +43,23 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Contact me.</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         
         <div class="fluid-container">
-          <div class="row">
+          <div class="row p-3">
             <!-- Profile Image -->
             <img class="img-fluid rounded-circle float-left col-sm-4 mb-2" src="media/headshot.jpg" alt="Spencer Creer Profile Picture">
 
-            <!-- Contact Links -->
-            <ul class="col-md-8">
-              <li class="list-group-item"> 
-                <a class="text-dark" href="mailto: spencercreer@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:32px;color:#EA4335"></i> spencercreer@gmail.com</a>
-              </li>
-              <li class="list-group-item">
-                <a class="text-dark" href="https://github.com/" target="_blank"><i class="fa fa-github text-left" style="font-size:36px;color:#25292E"></i>  spencercreer</a>
-              </li>
-              <li class="list-group-item">
-                <a class="text-dark" href="https://www.linkedin.com/in/spencer-creer-023246109/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px;color:#0A66C2"></i>  Spencer Creer</a>
-              </li>
-            </ul>
+            <div class="col-md-8">
+              <h1 class="display-4 contact-title">Contact me.</h1>
+              <p class="lead mb-1">Individually, we can be great. With the right team, we can be extraordinary.</p>
+              <p class="lead">Connect with me. I want to hear your story.
+              </p>
+            </div>
           </div>
 
           <!-- Contact Form -->
           <div class="row">
-            <form class="col-md-12 float-right">
+            <form class="col-md-8 py-3 px-1">
               <!-- Name -->
               <div class="form-row">
                 <div class="col">
@@ -89,11 +79,28 @@
               <div class="form-row">
                 <div class="col">
                   <textarea type="text" rows="3" class="form-control" placeholder="Message"></textarea>
-                  <button type="button" class="btn btn-dark btn-lg">Send</button>
                 </div>
               </div>
+              <div class="form-row mx-1">
+                <button type="button" class="btn btn-dark btn-lg mt-1">Send</button>
+              </div>
             </form>
+          
+            <!-- Contact Links -->
+              <ul class="col-md-4 bg-white border rounded mt-3 px-2">
+                <li class="link"> 
+                  <a class="text-dark link-text" href="mailto: spencercreer@gmail.com" target="_blank"><i class="fa fa-envelope link-email"></i> spencercreer</a>
+                </li>
+                <li class="link">
+                  <a class="text-dark link-text" href="https://github.com/" target="_blank"><i class="fa fa-github link-git"></i>  spencercreer</a>
+                </li>
+                <li class="link">
+                  <a class="text-dark link-text" href="https://www.linkedin.com/in/spencer-creer-023246109/" target="_blank"><i class="fa fa-linkedin-square link-in"></i>  Spencer Creer</a>
+                </li>
+             </ul>
+
           </div>
+
 
         </div>
 

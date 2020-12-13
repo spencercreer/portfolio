@@ -1,7 +1,32 @@
 .about {
-  font-size: 150px;
+  font-size: 16vw;
   }
 
-  ul.nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
-}
+  .contact-title{
+    font-size: 8vw;
+  }
+
+  ul{
+    margin-bottom: 67px;
+  }
+
+
+  .link{
+    list-style-type: none;
+  }
+
+  .link-text{
+    font-size: 24px;
+  }
+
+  .link-email{
+    color:#EA4335
+  }
+
+  .link-git{
+    color:#25292E
+  }
+
+  .link-in{
+    color:#0A66C2
+  }
