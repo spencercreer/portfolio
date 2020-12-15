@@ -1,32 +1,44 @@
+/* Navbar style */
+ul{
+  margin-bottom: 67px;
+}
+
+.link{
+  list-style-type: none;
+}
+
+.link-text{
+  font-size: 24px;
+}
+
+.link-email{
+  color:#EA4335
+}
+
+.link-git{
+  color:#25292E
+}
+
+.link-in{
+  color:#0A66C2
+}
+
+/* Index page style */
 .about {
   font-size: 16vw;
-  }
+}
 
-  .contact-title{
-    font-size: 8vw;
-  }
+.bio-image{
+  max-height: 30%;
+  max-width: 30%;
+}
 
-  ul{
-    margin-bottom: 67px;
-  }
+/* Contact page style */
+.contact-image{
+  max-height: 30%;
+  max-width: 30%;
+}
 
-
-  .link{
-    list-style-type: none;
-  }
-
-  .link-text{
-    font-size: 24px;
-  }
-
-  .link-email{
-    color:#EA4335
-  }
-
-  .link-git{
-    color:#25292E
-  }
-
-  .link-in{
-    color:#0A66C2
-  }
+.contact-title{
+  font-size: 8vw;
+}
