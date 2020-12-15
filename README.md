@@ -11,9 +11,12 @@ Repository: https://github.com/spencercreer/portfolio
 
 ## Images
 
-About me page: <img src="media/about-me-page.PNG" alt="About me page" width= 50% height= 50%> 
+About me page: 
+<img src="media/about-me-page.PNG" alt="About me page" width= 15% height= 15%> 
 
-Portfolio page: <img src="media/portfolio-page.PNG" alt="Portfolio page" width= 50% height= 50%>
+Portfolio page: 
+<img src="media/portfolio-page.PNG" alt="Portfolio page" width= 15% height= 15%>
 
-Contact page: <img src="media/contact-page.PNG" alt="Contact page" width= 50% height= 50%> 
+Contact page: 
+<img src="media/contact-page.PNG" alt="Contact page" width= 15% height= 15%> 
 
