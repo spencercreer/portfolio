@@ -10,44 +10,70 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-   <!-- Navbar -->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="../index.html">Spencer Creer</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="portfolio.html"id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Portfolio
-          </a>
-          <div class="dropdown-menu bg-dark border-0" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item text-light bg-dark" href="portfolio.html">Portfolio</a>
-            <a class="dropdown-item text-light bg-dark" href="web_develop.html">Web Development</a>
-            <a class="dropdown-item text-light bg-dark" href="capstone.html">Capstone</a>
-            <a class="dropdown-item text-light bg-dark" href="mechatronics.html">Mechatronics</a>
-            <a class="dropdown-item text-light bg-dark" href="composites.html">Composites</a>
-          </div>
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+        <a class="nav-link" href="./web_develop.html">Web Development</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Connect</a>
+        <a class="nav-link" href="./capstone.html" target="_blank">Mechanical Engineering</a>
         </li>
-      </ul>
+        <li class="nav-item">
+        <a class="nav-link" href="./resume.html" target="_blank">Resume</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="../index.html#contact">Connect</a>
+        </li>
+    </ul>
     </div>
   </nav>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Capstone</h1>
-            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis quisquam id tempora dignissimos corrupti libero. Excepturi, tenetur iure. Minus dolor nulla blanditiis ullam modi praesentium tenetur architecto similique temporibus?</p>
-            <img class="img-fluid" src="../assets/capstone.jpg" alt="Capstone project of gimbal system mounted on a tripod.">
-            <p>  For my BYU Capstone project, I worked with a team of five other graduating engineers. 
-                Our team was sponsered by L3 Technologies and tasked with making an autonomous system that could point to a give latitude, longitude, and azimuth with a high degree of accuracy. 
-                Military personel often boresight communication antenna. This is a time consuming and potentially hazardous process. L3 hoped to use our research to make the process autonomous and thereby making it safer and more efficient.
+            <h1 class="display-4">Mechanical Engineering</h1>
+            <p class="lead">From a young age, I have enjoyed designing, prototyping, and building useful tools. As a result I decided to study mechanical engineering at Brigham Young University. This is a portfolio of some of my favorite projects I participated in at BYU.</p>
+            <h2 class="display-5">Capstone</h2>
+            <div class="row">
+              <p class="col-md-8"> For my BYU Capstone project, I worked with a team of five other graduating engineers. 
+                  Our team was sponsered by L3 Technologies and tasked with making an autonomous system that could point to a given latitude, longitude, and azimuth with a high degree of accuracy. 
+                  Military personel often boresight communication antenna by hand which is a time consuming and potentially hazardous process. L3 hoped to use our research to make the process autonomous, making it quicker and safer.
+              </p>
+              <div class="col-md-4">
+                <img class="img-fluid" src="../assets/capstone.jpg" alt="Capstone project of gimbal system mounted on a tripod.">
+              </div>
+            </div>
+            <a href="../assets/L3 Presentation.pptx">Our Solution</a>
+        </div>
+        <div class="container">
+          <h2 class="display-5">Mechatronics</h2>
+          <div class="row">
+            <!-- Mechatronics Image -->
+            <div class="col-md-4">
+              <img class="img-fluid" src="../assets/mech_robot.png" alt="BYU mechatronics robot.">
+            </div>
+            <p class="col-md-8">Together with a team of three other engineers, we took first place in the Fall 2016 BYU Mechatronics Competition. The task was to make a robot that would find a ping pong ball dispenser, gather up to six ping pong balls, and shoot or place them in one of three randomly activated goals.
+            While participating in this competition, I gained experience with electronic components, Servo- and DC motors, computer programming, and robotics. 
+              I also reinforced important engineering skills including CAD modeling, geometric dimensioning and tolerancing, and 3D printing.
             </p>
-            <p>                Our solution was to develop and rover and base station system that utilized RTK GPS, a Raspberry Pi, and an accelerometer. The rover was set up approximately one-hundred meters from the base unit. The base unit gimbal was lined up with the rover using a scope and leveled using an accelerometer. Once set up, the RTK would establish the position of the base unit.
-                Once location was established, the gimbal would rotate to point to a latitude, longitude, and azimuth that was entered into the Raspberry Pi.</p>
+            <!-- Video -->
+            <video width="320" height="240" controls>
+              <source src="../assets/mechatronics_comp.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="container">
+            <h1 class="display-5">Composites</h1>
+            <img class="img-fluid" src="../assets/carbon_fiber_uke.jpg" alt="Custom made carbon fiber ukulele.">
+            <p> While taking the Manufacturing Plastics Materials and Processing course, I designed and manufactured a custom tenor ukulele out of carbon fiber and fiberglass. 
+                I first made a three-dimensional computer model of a ukulele using SOLIDWORKS modeling software.</p>
+            <p> While working on this project I developed skills in composites manufacturing, resin infusion, layup, and Solidworks modeling and drafting.</p>
         </div>
       </div>
       

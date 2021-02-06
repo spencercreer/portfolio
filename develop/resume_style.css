@@ -1,3 +1,11 @@
+.show {
+    display:block;
+}
+
+.hide {
+    display:none;
+}
+
 .contact-info{
     margin-bottom: 0px;
 }

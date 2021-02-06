@@ -8,34 +8,32 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./develop/style.css">
   </head>
   
   <body>
-     <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="../index.html">Spencer Creer</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="./index.html">Spencer Creer</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="develop/portfolio.html"id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu bg-dark border-0" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-light bg-dark" href="develop/portfolio.html">Portfolio</a>
-              <a class="dropdown-item text-light bg-dark" href="develop/web_develop.html">Web Development</a>
-              <a class="dropdown-item text-light bg-dark" href="develop/capstone.html">Capstone</a>
-              <a class="dropdown-item text-light bg-dark" href="develop/mechatronics.html">Mechatronics</a>
-              <a class="dropdown-item text-light bg-dark" href="develop/composites.html">Composites</a>
-            </div>
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+          <a class="nav-link" href="./develop/web_develop.html">Web Development</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="develop/contact.html">Connect</a>
+          <a class="nav-link" href="./develop/capstone.html" target="_blank">Mechanical Engineering</a>
           </li>
-        </ul>
+          <li class="nav-item">
+          <a class="nav-link" href="./develop/resume.html" target="_blank">Resume</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#contact">Connect</a>
+          </li>
+      </ul>
       </div>
     </nav>
 
@@ -56,8 +54,10 @@
             <p>I was born in Castro Valley, California and moved to Utah at age seven. I graduated with honors and a 4.0 GPA from Lone Peak high school. 
             </p>
             <div class="row">
-            <img class="col-md-6 col-lg-8 col-sm-12" src="assets/neuschwan_castle.jpg" alt="Neuschwanstein Castle located in southern Germany.">
-            <p class="col-md-6 col-lg-4">
+              <div class="col-md-6">
+                <img class="img-fluid" src="assets/neuschwan_castle.jpg" alt="Neuschwanstein Castle located in southern Germany.">
+              </div>
+            <p class="col-md-6">
               From 2009 to 2011, I performed service for the Church of Jesus Christ of Latter-Day Saints in southern Germany, Austria, and Switzerland.  I learned the German language and 
               gained a love for the German culture.
             </p>
@@ -68,13 +68,15 @@
         <div class="card col-lg-6">
           <section class="card-body">
             <div class="row">
-            <p class="col-md-4 col-lg-12">
+            <p>
               I attended Brigham Young University from 2012 to 2018 and graduated with a bachelor's degree in Mechanical Engineering. I also received a minor in German and a minor Global Business and Literacy. I have continued my education by participating in classes and conferences. 
               I am currently attending a coding bootcamp at the University of Utah.
             </p>
-
-            <img class="image-fluid col-md-8 col-lg-12" src="assets/byu.jpg" alt="Brigham Young campus and Y mountain.">
+            <div>
+              <img class="img-fluid" src="assets/byu.jpg" alt="Brigham Young campus and Y mountain.">
             </div>
+          </div>
+
           </section>
         </div>
       </div>
@@ -88,6 +90,61 @@
             I am married my best friend and wife Lyndsey. Lyndsey graduated from BYU with a bachelor's of arts in Philosopy and will be going to law school. We enjoy cooking, exercising, and being outdoors together.
           </p>
         </section>
+      </div>
+      <div class="container">
+        
+        <div id="contact" class="container">
+          <div class="row">
+            <!-- Profile Image -->
+            <div class="col-md-9">
+              <h1 class="display-4 contact-title">Contact me.</h1>
+              <p class="lead">Please connect with me through any of the following methods below.</p>
+              </div>
+          </div>
+        </div>
+
+          <!-- Contact Form -->
+          <div class="row">
+            <!-- Contact Links -->
+              <ul class="col-md-5 bg-white border rounded px-3 mt-2 mb-0" style="height: 162px;">
+                <li class="link"> 
+                  <a class="text-dark link-text" href="mailto: spencercreer@gmail.com" target="_blank" style="font-size: 20px;"><i class="fa fa-envelope link-email"></i> spencercreer@gmail.com</a>
+                </li>
+                <li class="link">
+                  <a class="text-dark link-text" href="https://github.com/spencercreer" target="_blank"><i class="fa fa-github link-git" style="font-size: 20px;"></i>  spencercreer</a>
+                </li>
+                <li class="link">
+                  <a class="text-dark link-text" href="https://www.linkedin.com/in/spencer-creer-023246109/" target="_blank" style="font-size: 20px;"><i class="fa fa-linkedin-square link-in"></i>  Spencer Creer</a>
+                </li>
+             </ul>
+            <form class="col-md-7 py-2 px-0">
+              <!-- Name -->
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+              <!-- Email -->
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <!-- Message -->
+              <div class="form-row">
+                <div class="col">
+                  <textarea type="text" rows="3" class="form-control" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="form-row mx-1 float-right">
+                <button type="button" class="btn btn-dark btn-lg mt-1">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
       
     <!-- Optional JavaScript -->
