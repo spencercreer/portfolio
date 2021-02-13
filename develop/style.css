@@ -3,6 +3,26 @@ ul{
   margin-bottom: 67px;
 }
 
+.profile-image {
+  position: relative;
+
+}
+
+.profile-image:hover {
+  filter: brightness(30%)
+}
+
+.overlay-text{
+  position: absolute;
+  font-size: 3vw;
+  display:none;
+}
+
+.profile-image:hover .overlay-text {
+  display:block;
+  color: white;
+}
+
 .link{
   list-style-type: none;
 }
@@ -37,3 +57,5 @@ ul{
 .contact-title{
   font-size: 8vw;
 }
+
+/* media queries */
