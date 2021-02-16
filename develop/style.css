@@ -17,12 +17,18 @@ ul{
 }
 
 /*  */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #intro-title {
     font-size: 12vw;
   }
 }
 
+/*  576px wide */
+@media (max-width: 576px) {
+  #intro-title {
+    font-size: 10vw;
+  }
+}
 /*  */
 /* @media (max-width: 768px) {
   #intro-text {
@@ -31,7 +37,7 @@ ul{
 } */
 
 /* large card text on screens that are equal to or less than 768px wide */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #intro-text {
     font-size: 4vw;
   }
