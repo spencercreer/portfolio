@@ -3,12 +3,38 @@ ul{
   margin-bottom: 67px;
 }
 
-/* Index page style */
+/* Intro style */
 #intro{
   background-color: white;
 }
-.main-title {
-  font-size: 14vw;
+
+#intro-title{
+  font-size: 8vw;
+}
+
+#intro-text{
+  font-size: 2vw;
+}
+
+/*  */
+@media (max-width: 768px) {
+  #intro-title {
+    font-size: 12vw;
+  }
+}
+
+/*  */
+/* @media (max-width: 768px) {
+  #intro-text {
+    display: none;
+  }
+} */
+
+/* large card text on screens that are equal to or less than 768px wide */
+@media (max-width: 768px) {
+  #intro-text {
+    font-size: 4vw;
+  }
 }
 
 /* Contact page style */
@@ -21,7 +47,7 @@ ul{
   position: absolute;
   left: 50%;
   top: 50%;
-  display:none;
+  display: none;
   transform: translate(-50%, -50%);
 }
 
@@ -30,12 +56,12 @@ ul{
 }
 
 .hover-overlay:hover .overlay-text {
-  display:block;
+  display: block;
   color: white;
 }
 
 .hover-overlay:hover .overlay-img{
-  filter: brightness(35%);
+  filter: brightness(40%);
 }
 
 /* keep overlay on screens that are equal to or less than 576px wide */
@@ -46,7 +72,7 @@ ul{
     color: white;
   }
   .overlay-img{
-    filter: brightness(35%);
+    filter: brightness(40%);
   }
 }
 
