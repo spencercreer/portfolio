@@ -22,100 +22,107 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
+            <!-- About me link -->
             <li class="nav-item">
               <a class="nav-link" href="./develop/bio.html">About me</a>
             </li>
+            <!-- Web development link -->
             <li class="nav-item">
-            <a class="nav-link" href="./develop/web_develop.html">Web Development</a>
+              <a class="nav-link" href="./develop/web_develop.html">Web Development</a>
             </li>
+            <!-- Mechanical engineering link -->
             <li class="nav-item">
-            <a class="nav-link" href="./develop/mechanical_eng.html">Mechanical Engineering</a>
+              <a class="nav-link" href="./develop/mechanical_eng.html">Mechanical Engineering</a>
             </li>
+            <!-- Resume link -->
             <li class="nav-item">
-            <a class="nav-link" href="./develop/resume.html">Resume</a>
+              <a class="nav-link" href="./develop/resume.html">Resume</a>
             </li>
+            <!-- Connect link -->
             <li class="nav-item">
-            <a class="nav-link" href="#contact">Connect</a>
+              <a class="nav-link" href="#contact">Connect</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-    <!-- Jumbotron -->
-    <div class="jumbotron pb-0 pt-2 px-5 mb-0">
-      <div class="container-fluid">
+    <!-- Intro jumbotron -->
+    <div class="jumbotron p-0 mb-0">
+      <div id="intro" class="container-fluid">
         <div class="row">
-          <div class="col-md-7">
-            <h1 class="display-1 pt-3 mb-0 about" style="font-size: 8vw;">Hi, I'm</h1>
-            <h1 class="display-1 about mb-5">Spencer</h1>
-            <p class="lead">I am a full-stack web developer and mechanical engineer.</p>
+          <!-- Intro text -->
+          <div class="col-md-7 pl-5">
+            <h1 class="display-1 pt-3 mb-0" style="font-size: 8vw;">Hi, I'm</h1>
+            <h1 class="display-1 main-title mb-4">Spencer</h1>
+            <p class="lead mt-5 px-5" style="font-size: 2vw;">I am a full-stack web developer and mechanical engineer. I love writing code that displays data in a useful way. I enjoy building tools that make life easier. I am an avid musician, hiker, and cook.</p>
           </div>
-            <div class="col-md-5">
-              <img class="img-fluid float-right" src="assets/profile.png" alt="Profile picture">
-            </div>
+          <!-- Intro profile image -->
+          <div class="col-md-5">
+            <img class="img-fluid float-right" src="assets/profile.png" alt="Profile picture">
+          </div>
         </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row my-3">
-            <div class="col-md-3 mb-2 px-1">
-              <!-- About Me card -->
-              <div class="card">
-                <a href="./develop/bio.html" class="profile-image">
-                <img src="./assets/switzerland2.jpg" class="card-img" alt="Spencer paragliding in the Swiss Alps.">
-                    <div class="card-img-overlay text-center">
-                      <h5 class="card-title overlay-text text-center">About Me</h5>
-                      <p class="card-text"></p>
-                    </div>
-                  </a>
-              </div>
-            </div>
-            <div class="col-md-3 mb-2 px-1">
-              <!-- Web development card -->
-              <div class="card">
-                <a href="./develop/web_develop.html" class="profile-image">
-                <img src="./assets/code.jpg" class="card-img" alt="Computer code">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title overlay-text">Web Development</h5>
-                      <p class="card-text"></p>
-                    </div>
-                  </a>
-              </div>
-            </div>
-            <div class="col-md-3 mb-2 px-1">
-              <!-- Mechanical Eng card -->
-              <div class="card">
-                <a href="./develop/mechanical_eng.html" class="profile-image">
-                  <img src="./assets/military_satellite.jpg" class="card-img-top" alt="Soldier with a laptop working on a satelitte antenna.">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title overlay-text">Engineering</h5>
+      </div>
+      <!-- Main page card links -->
+      <div class="container-fluid px-4">
+        <div class="row my-3">
+          <!-- About Me card -->
+          <div class="col-md-3 mb-2 px-1">
+            <div class="card text-center">
+              <a href="./develop/bio.html" class="hover-overlay">
+              <img src="./assets/switzerland2.jpg" class="card-img overlay-img" alt="Spencer paragliding in the Swiss Alps.">
+                  <div class="card-img-overlay text-center">
+                    <h5 class="card-title overlay-text text-center">About Me</h5>
                     <p class="card-text"></p>
                   </div>
-                  </a>
-              </div>
-            </div>
-            <div class="col-md-3 mb-2 px-1">
-              <!-- Resume card -->
-              <div class="card">
-                <a href="./develop/resume.html" class="profile-image">
-                  <img src="./assets/sweden.jpg" class="card-img-top" alt="Mollosund Sweden">
-                    <div class="card-img-overlay">
-                      <h5 class="card-title overlay-text">Resume</h5>
-                      <p class="card-text"></p>
-                    </div>
-                  </a>
-              </div>
+                </a>
             </div>
           </div>
-
+          <!-- Web development card -->
+          <div class="col-md-3 mb-2 px-1">
+            <div class="card text-center">
+              <a href="./develop/web_develop.html" class="hover-overlay">
+              <img src="./assets/code.jpg" class="card-img overlay-img" alt="Computer code">
+                  <div class="card-img-overlay">
+                    <h5 class="card-title overlay-text">Web Development</h5>
+                    <p class="card-text"></p>
+                  </div>
+                </a>
+            </div>
+          </div>
+          <!-- Mechanical Eng card -->
+          <div class="col-md-3 mb-2 px-1">
+            <div class="card text-center">
+              <a href="./develop/mechanical_eng.html" class="hover-overlay">
+                <img src="./assets/military_satellite.jpg" class="card-img-top overlay-img" alt="Soldier with a laptop working on a satelitte antenna.">
+                <div class="card-img-overlay">
+                  <h5 class="card-title overlay-text">Engineering</h5>
+                  <p class="card-text"></p>
+                </div>
+                </a>
+            </div>
+          </div>
+          <!-- Resume card -->
+          <div class="col-md-3 mb-2 px-1">
+            <div class="card text-center">
+              <a href="./develop/resume.html" class="hover-overlay">
+                <img src="./assets/sweden.jpg" class="card-img-top overlay-img" alt="Mollosund Sweden">
+                <div class="card-img-overlay">
+                  <h5 class="overlay-text">Resume</h5>
+                  <p class="card-text"></p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
-            
+      </div>
+      <!-- Contact -->  
       <div id="contact" class="container">
           <div class="row">
             <div class="col-md-9">
               <h1 class="display-4 contact-title">Contact me.</h1>
               <p class="lead">Email me at <a class="text-dark mx-auto" href="mailto: spencercreer@gmail.com" target="_blank">spencercreer@gmail.com</a> or send me a message through the following form.</p>
-              </div>
+            </div>
           </div>
           <!-- Contact Form -->
           <div class="row">
@@ -148,14 +155,15 @@
           </div>
       </div>
     </main>
-  <footer class="footer mt-auto">
-    <div class="container py-3">
-      <span class="text-muted">Coded by Spencer Creer using Bootstrap CSS framework 
-        <a class="text-dark link-text mx-2" href="https://www.linkedin.com/in/spencer-creer-023246109/" target="_blank" style="font-size: 25px;"><i class="fa fa-linkedin-square link-in"></i></a>
-        <a class="text-dark link-text mx-2 pt-3" href="https://github.com/spencercreer" target="_blank"><i class="fa fa-github link-git" style="font-size: 25px;"></i></a>
-      </span>
-    </div>
-  </footer>
+    <!-- Footer with profile links -->
+    <footer class="footer mt-auto">
+      <div class="container py-3">
+        <span class="text-muted">Coded by Spencer Creer using Bootstrap CSS framework 
+          <a class="text-dark link-text mx-2" href="https://www.linkedin.com/in/spencer-creer-023246109/" target="_blank" style="font-size: 25px;"><i class="fa fa-linkedin-square" style="color: #0A66C2;"></i></a>
+          <a class="text-dark link-text mx-2 pt-3" href="https://github.com/spencercreer" target="_blank"><i class="fa fa-github" style="font-size: 25px; color:#25292E;"></i></a>
+        </span>
+      </div>
+    </footer>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -16,16 +16,16 @@
     border-width: 3px;
 }
 
-/* align to the right on screens that are equal to or less than 768px wide */
+/* align date text left on screens that are equal to or less than 768px wide */
 @media (max-width: 768px) {
     .align-left-sm {
       text-align: left;
     }
-  }
+}
   
-  /* align to the right on screens that are equal to or greater than 769px wide */
-  @media (min-width: 769px) {
+/* align date text right on screens that are equal to or greater than 769px wide */
+@media (min-width: 769px) {
     .align-right-lg {
-      text-align: right;
+        text-align: right;
     }
-  }
+}

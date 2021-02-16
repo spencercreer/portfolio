@@ -3,24 +3,65 @@ ul{
   margin-bottom: 67px;
 }
 
-.profile-image {
-  position: relative;
-
+/* Index page style */
+#intro{
+  background-color: white;
+}
+.main-title {
+  font-size: 14vw;
 }
 
-.profile-image:hover {
-  filter: brightness(30%)
+/* Contact page style */
+.contact-title{
+  font-size: 8vw;
 }
 
+/* Main page cards hover style */
 .overlay-text{
   position: absolute;
-  font-size: 3vw;
+  left: 50%;
+  top: 50%;
   display:none;
+  transform: translate(-50%, -50%);
 }
 
-.profile-image:hover .overlay-text {
+.hover-overlay {
+  position: relative;
+}
+
+.hover-overlay:hover .overlay-text {
   display:block;
   color: white;
+}
+
+.hover-overlay:hover .overlay-img{
+  filter: brightness(35%);
+}
+
+/* keep overlay on screens that are equal to or less than 576px wide */
+@media (max-width: 576px) {
+  .overlay-text {
+    font-size: 10vw;
+    display:block;
+    color: white;
+  }
+  .overlay-img{
+    filter: brightness(35%);
+  }
+}
+
+/* large card text on screens that are equal to or less than 768px wide */
+@media (max-width: 768px) {
+  .overlay-text {
+    font-size: 10vw;
+  }
+}
+
+/* small card text on screens that are equal to or greater than 769px wide */
+@media (min-width: 769px) {
+  .overlay-text {
+    font-size: 3vw;
+  }
 }
 
 .link{
@@ -30,32 +71,3 @@ ul{
 .link-text{
   font-size: 24px;
 }
-
-.link-email{
-  color:#EA4335
-}
-
-.link-git{
-  color:#25292E
-}
-
-.link-in{
-  color:#0A66C2
-}
-
-/* Index page style */
-.about {
-  font-size: 14vw;
-}
-
-/* Contact page style */
-.contact-image{
-  max-height: 30%;
-  max-width: 30%;
-}
-
-.contact-title{
-  font-size: 8vw;
-}
-
-/* media queries */
