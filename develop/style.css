@@ -39,7 +39,7 @@ ul{
 /* large card text on screens that are equal to or less than 768px wide */
 @media (max-width: 767px) {
   #intro-text {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }
 
