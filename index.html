@@ -121,35 +121,55 @@
           <div class="row">
             <div class="col-md-9">
               <h1 class="display-4 contact-title">Contact me.</h1>
-              <p class="lead">Email me at <a class="text-dark mx-auto" href="mailto: spencercreer@gmail.com" target="_blank">spencercreer@gmail.com</a> or send me a message through the following form.</p>
+              <p class="lead">Contact me through email, GitHub, or LinkedIn or send me a message through the following form.</p>
             </div>
           </div>
-          <!-- Contact Form -->
+
           <div class="row">
+            <div class="col-4">
+              <p class="text-center">
+                <a class="text-dark" href="mailto: spencercreer@gmail.com" target="_blank" style="font-size: 72px;"><i class="fa fa-envelope link-email"></i></a>
+              </p>
+            </div>
+            <div class="col-4">
+              <p class="text-center mt-4">
+                <a class="text-dark" href="https://github.com/spencercreer" target="_blank"><i class="fa fa-github link-git" style="font-size: 72px;"></i></a>
+              </p>
+            </div>
+            <div class="col-4">
+              <p class="text-center">
+                <a class="text-dark" href="https://www.linkedin.com/in/spencer-creer-023246109/" target="_blank" style="font-size: 72px;"><i class="fa fa-linkedin-square link-in"></i></a>
+              </p>
+            </div>
+          </div>
+          
+        
+          <!-- Contact Form -->
+          <div class="row px-2">
             <form class="col-md-12 py-2 px-0">
               <!-- Name -->
-              <div class="form-row">
+              <div class="form-row mb-1">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="First name">
+                  <input type="text" class="form-control" placeholder="First name" required>
                 </div>
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Last name">
+                  <input type="text" class="form-control" placeholder="Last name" required>
                 </div>
               </div>
               <!-- Email -->
-              <div class="form-row">
+              <div class="form-row mb-1">
                 <div class="col">
-                  <input type="text" class="form-control" placeholder="Email">
+                  <input type="text" class="form-control" placeholder="Email" required>
                 </div>
               </div>
               <!-- Message -->
               <div class="form-row">
                 <div class="col">
-                  <textarea type="text" rows="3" class="form-control" placeholder="Message"></textarea>
+                  <textarea type="text" rows="3" class="form-control" placeholder="Message" required></textarea>
                 </div>
               </div>
               <div class="form-row mx-1 float-right">
-                <button type="button" class="btn btn-dark btn-lg mt-1">Send</button>
+                <button type="submit" class="btn btn-dark btn-lg mt-1">Send</button>
               </div>
             </form>
           </div>

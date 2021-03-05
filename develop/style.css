@@ -103,3 +103,15 @@ ul{
 .link-text{
   font-size: 24px;
 }
+
+.link-email:hover{
+  color: rgb(217,48,37);
+}
+
+.link-git:hover{
+  color: rgb(34,110,57);
+}
+
+.link-in:hover{
+  color: rgb(10,102,194);
+}
