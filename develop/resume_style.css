@@ -9,6 +9,30 @@
 .contact-info{
     margin-bottom: 0px;
 }
+/* main style */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* section style */
+.utility {
+    margin-bottom: 20px;
+    padding: 50px;
+    overflow: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.utility img {
+    max-height: 200px;
+}
+
+.utility h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 .resume-heading{
     border: black;
