@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body{
+  height: 100%;
+}
+
 .jumbotron {
     background-color: white;
 }
@@ -48,7 +52,6 @@
     padding: 20px;
     clear: both;
     float: right;
-    height: 100%;
     background-color: #E9ECEF;
 }
 
@@ -70,6 +73,7 @@
 @media (min-width: 850px) {
     .product-development {
       width: 30%;
+      height: 100%;
     }
   }
   
