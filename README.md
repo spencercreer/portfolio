@@ -1,21 +1,46 @@
-# Portfolio - Spencer Creer
+# Full-Stack Portfolio
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-This is a portfolio web application that includes a biography and portfolio pages. The biographay page contains a contact form. It uses bootstrap's grid system to create a responsive layout and img-fluid for responsive images.
+## Description
+This portfolio web application contains home, biography, portfolio, and resume web pages. The home page contains a React contact form. The application uses bootstrap CSS framework to create a mobile first, responsive layout and responsive images.
+
+## Table of Contents
+* [Links](#links)
+* [Images](#images)  
+* [Technologies](#technologies)  
+* [License](#license)
+* [Contact](#contact)
 
 ## Links
+Published URL: [https://spencercreer.github.io/portfolio/](https://spencercreer.github.io/portfolio/)
 
-URL: https://spencercreer.github.io/portfolio/
+Repository: [https://github.com/spencercreer/portfolio](https://github.com/spencercreer/portfolio)
 
-Repository: https://github.com/spencercreer/portfolio
 
 ## Images
 
-About me page: 
-<img src="assets/about-me-page.PNG" alt="About me page" width= 15% height= 15%> 
+Home page: 
+</br>
+<img src="./assets/about-me-page.PNG" alt="About me page" width= 30%> 
 
 Portfolio page: 
-<img src="assets/portfolio-page.PNG" alt="Portfolio page" width= 15% height= 15%>
+</br>
+<img src="./assets/portfolio-page.PNG" alt="Portfolio page" width= 30%>
 
-Contact page: 
-<img src="assets/contact-page.PNG" alt="Contact page" width= 15% height= 15%> 
+Contact form: 
+</br>
+<img src="./assets/contact.PNG" alt="Contact page" width= 30%> 
 
+## Technologies
+ * HTML
+ * CSS
+ * Bootstrap
+
+## License
+This project is licensed under the MIT license.
+## Contact
+For questions or comments, please contact me.
+
+Email: <a href="mailto: spencercreer@gmail.com" target="_blank">spencercreer@gmail.com</a>
+
+GitHub: [spencercreer](https://github.com/spencercreer/)
