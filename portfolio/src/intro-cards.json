@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "About Me",
+      "src": "./assets/img/switzerland.jpg",
+      "alt": "Spencer paragliding in the Swiss Alps."
+    },
+    {
+        "id": 1,
+        "title": "Web Development",
+        "src": "./assets/img/code.jpg",
+        "alt": "A blue screen with computer code."
+      },
+      {
+        "id": 1,
+        "title": "Engineering",
+        "src": "./assets/img/military_satellite.jpg",
+        "alt": "Soldier with a laptop working on a satelitte antenna."
+      },
+      {
+        "id": 1,
+        "title": "Resume",
+        "src": "./assets/img/sweden.jpg",
+        "alt": "A small fishing pier with fishing boats on a dock."
+      }
+
+]

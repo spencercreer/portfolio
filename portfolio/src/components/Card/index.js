@@ -8,7 +8,7 @@ export default function index(props) {
           <img src={props.src} className="card-img overlay-img"
             alt={props.alt}/>
           <div className="card-img-overlay text-center">
-            <h5 className="card-title overlay-text text-center">About Me</h5>
+            <h5 className="card-title overlay-text text-center">{props.title}</h5>
             <p className="card-text"></p>
           </div>
         </a>
