@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
 
-export default function index(props) {
+export default function Card(props) {
     return (
         <div className="card text-center">
         <a href="./develop/bio.html" className="hover-overlay">

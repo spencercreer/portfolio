@@ -1,31 +1,26 @@
 import React, { Component } from 'react'
 import Nav from "../components/Nav/Nav"
 import Container from "../components/Container/Cointainer";
-import Intro from "../components/Intro/Intro";
 import Row from "../components/Row/Row";
 import Col from "../components/Col/Col";
-import Card from "../components/Card/Card";
-import Form from "../components/Form/Form";
+import DevCard from "../components/Card/Card";
 import Footer from "../components/Footer/Footer";
-import cards from "../intro-cards.json"
+import devCards from "../web-dev-cards.json"
 
 
-export default class Landing extends Component {
+export default class Webdev extends Component {
     state = {
-        cards
+        devCards
       };
       render() {
         return (
           <div>
             <Nav />
-            <Container fluid>
-              <Intro />
-            </Container>
-            <Container fluid>
+            <div className="card-columns">
               <Row>
-                {this.state.cards.map(card => (
+                {this.state.devCards.map(card => (
                   <Col size="md-3">
-                    <Card
+                    <DevCard
                       title={card.title}
                       src={card.src}
                       alt={card.alt}
@@ -33,13 +28,9 @@ export default class Landing extends Component {
                   </Col>
                 ))}
               </Row>
-            </Container>
-            <Container>
-              <Form />
-            </Container>
+            </div>
             <Footer />
           </div>
         );
       }
 }
-

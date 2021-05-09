@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "MVC Burgers",
+      "src": "./assets/img/burger.gif",
+      "alt": "Gif of MVC Burgers application.",
+      "description": "MVC Burgers is a SQL database of delicious burgers. You can make and devour virtual burgers with this Node.js application that is deployed to Heroku.",
+      "url": "https://mvc-burgers.herokuapp.com/",
+      "github": {
+          "name": "burger",
+          "link": "https://github.com/spencercreer/burger"
+      }
+    },
+    {
+        "id": 1,
+      "title": "MVC Burgers",
+      "src": "./assets/img/burger.gif",
+      "alt": "Gif of MVC Burgers application.",
+      "description": "MVC Burgers is a SQL database of delicious burgers. You can make and devour virtual burgers with this Node.js application that is deployed to Heroku.",
+      "url": "https://mvc-burgers.herokuapp.com/",
+      "github": {
+          "name": "burger",
+          "link": "https://github.com/spencercreer/burger"
+      }
+      },
+      {
+        "id": 1,
+        "title": "MVC Burgers",
+        "src": "./assets/img/burger.gif",
+        "alt": "Gif of MVC Burgers application.",
+        "description": "MVC Burgers is a SQL database of delicious burgers. You can make and devour virtual burgers with this Node.js application that is deployed to Heroku.",
+        "url": "https://mvc-burgers.herokuapp.com/",
+        "github": {
+            "name": "burger",
+            "link": "https://github.com/spencercreer/burger"
+        }
+      },
+      {
+        "id": 1,
+        "title": "MVC Burgers",
+        "src": "./assets/img/burger.gif",
+        "alt": "Gif of MVC Burgers application.",
+        "description": "MVC Burgers is a SQL database of delicious burgers. You can make and devour virtual burgers with this Node.js application that is deployed to Heroku.",
+        "url": "https://mvc-burgers.herokuapp.com/",
+        "github": {
+            "name": "burger",
+            "link": "https://github.com/spencercreer/burger"
+        }
+      }
+
+]
