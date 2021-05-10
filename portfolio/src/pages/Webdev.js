@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
-import Nav from "../components/Nav/Nav"
+import React, { Component } from 'react';
+import Nav from "../components/Nav/Nav";
+import Jumbotron from "../components/Jumbotron/Jumbotron";
 import Container from "../components/Container/Cointainer";
 import Row from "../components/Row/Row";
 import Col from "../components/Col/Col";
-import DevCard from "../components/Card/Card";
+import DevCard from "../components/DevCard/DevCard";
 import Footer from "../components/Footer/Footer";
 import devCards from "../web-dev-cards.json"
 
@@ -16,19 +17,20 @@ export default class Webdev extends Component {
         return (
           <div>
             <Nav />
-            <div className="card-columns">
-              <Row>
+            <Jumbotron>
                 {this.state.devCards.map(card => (
-                  <Col size="md-3">
                     <DevCard
+                      key={card.id}
                       title={card.title}
                       src={card.src}
                       alt={card.alt}
+                      description={card.description}
+                      url={card.url}
+                      repo={card.github.name}
+                      link={card.github.link}
                     />
-                  </Col>
                 ))}
-              </Row>
-            </div>
+            </Jumbotron>
             <Footer />
           </div>
         );

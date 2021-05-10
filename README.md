@@ -16,7 +16,6 @@ Published URL: [https://spencercreer.github.io/portfolio/](https://spencercreer.
 
 Repository: [https://github.com/spencercreer/portfolio](https://github.com/spencercreer/portfolio)
 
-
 ## Images
 
 Home page: 
@@ -35,6 +34,12 @@ Contact form:
  * HTML
  * CSS
  * Bootstrap
+
+## Installation
+```bash
+npm install
+npm install react-bootstrap bootstrap
+```
 
 ## License
 This project is licensed under the MIT license.

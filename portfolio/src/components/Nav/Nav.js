@@ -11,23 +11,18 @@ export default function Nav() {
           </button>
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav mr-auto">
-              {/* About me link */}
               <li className="nav-item">
                 <a className="nav-link" href="./develop/bio.html">About me</a>
               </li>
-              {/* Web development link */}
               <li className="nav-item">
                 <a className="nav-link" href="./develop/web_develop.html">Web Development</a>
               </li>
-              {/* Mechanical engineering link */}
               <li className="nav-item">
                 <a className="nav-link" href="./develop/mechanical_eng.html">Mechanical Engineering</a>
               </li>
-              {/* Resume link */}
               <li className="nav-item">
                 <a className="nav-link" href="./develop/resume.html">Resume</a>
               </li>
-              {/* Connect link */}
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Connect</a>
               </li>
