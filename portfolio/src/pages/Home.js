@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from "../components/Nav/Nav";
+import PortfolioNav from "../components/PortfolioNav/PortfolioNav";
 import Container from "../components/Container/Cointainer";
 import Intro from "../components/Intro/Intro";
 import Row from "../components/Row/Row";
@@ -17,7 +17,7 @@ export default class Landing extends Component {
       render() {
         return (
           <div>
-            <Nav />
+            <PortfolioNav />
             <Container fluid>
               <Intro />
             </Container>
