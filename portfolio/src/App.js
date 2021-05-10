@@ -1,18 +1,19 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Landing from "./pages/Landing";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Webdev from "./pages/Webdev";
 import Engineering from "./pages/Engineering";
 import Resume from "./pages/Resume";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div>
         <Switch>
-          <Route exact path={["/", "/landing"]}>
-            <Landing />
+          <Route exact path={["/", "/home"]}>
+            <Home />
           </Route>
           <Route exact path={"/about"}>
             <About />
@@ -31,5 +32,3 @@ function App() {
     </Router>
   )
 }
-
-export default App;

@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
-import Nav from "../components/Nav/Nav"
+import React, { Component } from 'react';
+import Nav from "../components/Nav/Nav";
 import Container from "../components/Container/Cointainer";
 import Intro from "../components/Intro/Intro";
 import Row from "../components/Row/Row";
 import Col from "../components/Col/Col";
-import Card from "../components/Card/Card";
+import IntroCard from "../components/IntroCard/IntroCard";
 import Form from "../components/Form/Form";
 import Footer from "../components/Footer/Footer";
-import cards from "../intro-cards.json"
+import cards from "../intro-cards.json";
 
 
 export default class Landing extends Component {
@@ -25,7 +25,7 @@ export default class Landing extends Component {
               <Row>
                 {this.state.cards.map(card => (
                   <Col size="md-3">
-                    <Card
+                    <IntroCard
                       title={card.title}
                       src={card.src}
                       alt={card.alt}

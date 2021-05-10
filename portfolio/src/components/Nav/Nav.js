@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Nav() {
     return (
@@ -12,16 +13,16 @@ export default function Nav() {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" href="./develop/bio.html">About me</a>
+                <a className="nav-link" href="/about">About me</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./develop/web_develop.html">Web Development</a>
+                <a className="nav-link" href="/web-development">Web Development</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./develop/mechanical_eng.html">Mechanical Engineering</a>
+                <a className="nav-link" href="/engineering">Engineering</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./develop/resume.html">Resume</a>
+                <a className="nav-link" href="/resume">Resume</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Connect</a>
