@@ -1,10 +1,10 @@
 [
     {
       "id": 1,
-      "title": "MVC Burgers",
-      "src": "./assets/img/burger.gif",
-      "alt": "Gif of MVC Burgers application.",
-      "description": "MVC Burgers is a SQL database of delicious burgers. You can make and devour virtual burgers with this Node.js application that is deployed to Heroku.",
+      "title": "Capstone",
+      "src": "./assets/img/capstone.jpg",
+      "alt": "The rover and base station of our capstone solution set up in a field.",
+      "description": "For my BYU Capstone project, I worked with a team of five other graduating engineers. Our team was sponsered by L3 Technologies and tasked with making an autonomous system that could point to a given latitude, longitude, and azimuth with a high degree of accuracy.",
       "url": "https://mvc-burgers.herokuapp.com/",
       "github": {
           "name": " burger",
@@ -13,10 +13,10 @@
     },
     {
         "id": 2,
-      "title": "Math.random",
-      "src": "./assets/img/math_random.gif",
-      "alt": "Gif of Math.random application.",
-      "description": "Heads or tails? This application uses JavaScript math functions to simulate random events like rolling dice or flipping a coin.",
+      "title": "Mechatronics",
+      "src": "./assets/img/mech_robot.png",
+      "alt": "",
+      "description": "Together with a team of three other engineers, we took first place in the Fall 2016 BYU Mechatronics Competition. The task was to make a robot that would find a ping pong ball dispenser, gather up to six ping pong balls, and shoot or place them in one of three randomly activated goals.",
       "url": "https://spencercreer.github.io/math_random/",
       "github": {
           "name": " math_random",
@@ -25,10 +25,10 @@
       },
       {
         "id": 3,
-        "title": "API Weather App",
-        "src": "./assets/img/weather_dashboard.PNG",
-        "alt": "API weather application.",
-        "description": "This weather application calls the OpenWeather API and displays a current and five-day forecast for a searched city.",
+        "title": "Composites",
+        "src": "./assets/img/carbon_fiber_uke.jpg",
+        "alt": "",
+        "description": "While taking the Manufacturing Plastics Materials and Processing course, I designed and manufactured a custom tenor ukulele out of carbon fiber and fiberglass. I first made a three-dimensional computer model of a ukulele using SOLIDWORKS modeling software. While working on this project I developed skills in composites manufacturing, resin infusion, layup, and Solidworks modeling and drafting.",
         "url": "https://spencercreer.github.io/weather_dashboard/",
         "github": {
             "name": " weather_dashboard",
@@ -45,42 +45,6 @@
         "github": {
             "name": " Velocity",
             "link": "https://github.com/MVPeter/Velocity"
-        }
-      },
-      {
-        "id": 5,
-        "title": "Decider Diner",
-        "src": "./assets/img/decider_diner.gif",
-        "alt": "Gif of Decider Diner application.",
-        "description": "Not sure what to eat for dinner? Decider Diner gives meal or restaraunt suggestions based on user responses. This mobile-friendly application calls the Spoonacular and Zomato APIs.",
-        "url": "https://spencercreer.github.io/Dine-Decider/",
-        "github": {
-            "name": " Dine-Decider",
-            "link": "https://github.com/spencercreer/Dine-Decider"
-        }
-      },
-      {
-        "id": 6,
-        "title": "Day Planner",
-        "src": "./assets/img/day_planner.gif",
-        "alt": "Gif of the day planner application.",
-        "description": "This daily planner saves hourly events to localStorage. It features a day and night mode which dynamically updates the css styling with the click of a button.",
-        "url": "https://spencercreer.github.io/day_planner/",
-        "github": {
-            "name": " day_planner",
-            "link": "https://github.com/spencercreer/day_planner"
-        }
-      },
-      {
-        "id": 7,
-        "title": "Coding Quiz",
-        "src": "./assets/img/JavaScript_Quiz.gif",
-        "alt": "Gif of the code quiz application.",
-        "description": "To test knowledge of JavaScript, I have created a code quiz. The quiz presents coding questions from a shuffled array and stores the user's score to local storage.",
-        "url": "https://github.com/spencercreer/code-quiz",
-        "github": {
-            "name": " code-quiz",
-            "link": "https://github.com/spencercreer/code-quiz"
         }
       }
 ]

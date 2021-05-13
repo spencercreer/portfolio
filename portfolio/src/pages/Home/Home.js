@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import PortfolioNav from "../components/PortfolioNav/PortfolioNav";
-import Container from "../components/Container/Cointainer";
-import Intro from "../components/Intro/Intro";
-import Row from "../components/Row/Row";
-import Col from "../components/Col/Col";
-import IntroCard from "../components/IntroCard/IntroCard";
-import Form from "../components/Form/Form";
-import Footer from "../components/Footer/Footer";
-import cards from "../intro-cards.json";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import PortfolioNav from "../../components/PortfolioNav/PortfolioNav";
+import Intro from "../../components/Intro/Intro";
+import IntroCard from "../../components/IntroCard/IntroCard";
+import Form from "../../components/Form/Form";
+import Footer from "../../components/Footer/Footer";
+import introCards from "../../intro-cards.json";
 
 
-export default class Landing extends Component {
+export default class Home extends Component {
     state = {
-        cards
+        introCards
       };
       render() {
         return (
@@ -23,9 +22,10 @@ export default class Landing extends Component {
             </Container>
             <Container fluid>
               <Row>
-                {this.state.cards.map(card => (
-                  <Col size="md-3">
+                {this.state.introCards.map(card => (
+                  <Col md={3} className="px-0">
                     <IntroCard
+                      key={card.id}
                       title={card.title}
                       src={card.src}
                       alt={card.alt}

@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Webdev from "./pages/Webdev";
-import Engineering from "./pages/Engineering";
-import Resume from "./pages/Resume";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Webdev from "./pages/Webdev/Webdev";
+import Engineering from "./pages/Engineering/Engineering";
+import Resume from "./pages/Resume/Resume";
 
 export default function App() {
   return (
