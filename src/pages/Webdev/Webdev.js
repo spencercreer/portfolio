@@ -13,9 +13,9 @@ export default class Webdev extends Component {
   };
   render() {
     return (
-      <div>
+      <div id="web-development">
         <PortfolioNav />
-        <Jumbotron fluid>
+        <Jumbotron fluid className="bg-light mb-0">
           <Container>
             <h1 className="display-4">Web Development</h1>
             <p className="lead">I am passionate about making tools that solve problems, improve efficiency, or make life more enjoyable. I have found that a powerful way to do this is through software and web development.</p>

@@ -1,6 +1,7 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
 
 export default function Intro() {
     return (
@@ -8,9 +9,7 @@ export default function Intro() {
             <Row>
                 <Col md={8} className="px-4">
                     <h1 id="intro-title" className="display-1 mx-4 mt-5 mb-3">Hi, I'm Spencer</h1>
-                    <p id="intro-text" className="lead m-4 pl-2">I am a full-stack web developer and mechanical engineer. I love
-                    writing code that displays data in a useful way, and enjoy building tools that make life more enjoyable. I
-              am an avid musician, hiker, and adventurer.</p>
+                    <p id="intro-text" className="lead m-4 pl-2">I am a full-stack web developer and mechanical engineer. I love writing code that displays data in a useful way, and enjoy building tools that make life more enjoyable. I am an avid musician, hiker, and adventurer.</p>
                 </Col>
                 <Col md={4}>
                     <img className="img-fluid float-right" src="assets/img/profile.png" alt="Spencer with his wife Lyndsey" />

@@ -6,9 +6,9 @@ import "./style.css";
 
 export default function Resume() {
     return (
-        <div>
+        <div id="resume">
             <PortfolioNav />
-            <Jumbotron fluid>
+            <Jumbotron fluid className="bg-light mb-0">
                 <Container>
                     <div className="row">
                         <div className="col-md-9">

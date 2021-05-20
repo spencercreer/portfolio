@@ -13,9 +13,9 @@ export default class Engineering extends Component {
   };
   render() {
     return (
-      <div>
+      <div id="engineering">
         <PortfolioNav />
-        <Jumbotron fluid>
+        <Jumbotron fluid className="bg-light mb-0">
           <Container>
             <h1 className="display-4">Mechanical Engineering</h1>
             <p className="lead">While at Brigham Young University, I studied the product development process. I enjoy designing, prototyping, and building new products. This is a portfolio of some of my favorite projects I participated in at BYU.</p>

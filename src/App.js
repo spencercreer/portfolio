@@ -12,9 +12,6 @@ export default function App() {
     <Router basename='/'>
       <div>
         <Switch>
-          <Route exact path={["/", "/home"]}>
-            <Home />
-          </Route>
           <Route exact path={"/about"}>
             <About />
           </Route>
@@ -26,6 +23,9 @@ export default function App() {
           </Route>
           <Route exact path={"/resume"}>
             <Resume />
+          </Route>
+          <Route exact path={["/", "/portfolio"]}>
+            <Home />
           </Route>
         </Switch>
       </div>
