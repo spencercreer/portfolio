@@ -12,6 +12,29 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./develop/style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_FV4fCPfLfkyufi2GtjyrI');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_zwxq2o3', 'template_ex8lh6v', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -57,7 +80,7 @@
           <!-- Intro text -->
           <div class="col-md-8 px-4">
             <h1 id="intro-title" class="display-1 mx-4 mt-5 mb-3">Hi, I'm Spencer</h1>
-            <p id="intro-text" class="lead m-4 pl-2">I am a full-stack web developer and mechanical engineer. I love
+            <p class="intro-text lead m-4 pl-2">I am a full-stack web developer and mechanical engineer. I love
               writing code that displays data in a useful way, and enjoy building tools that make life more enjoyable. I
               am an avid musician, hiker, and adventurer.</p>
           </div>
@@ -128,7 +151,7 @@
         <div class="row">
           <div class="col-md-9">
             <h1 class="display-4 contact-title">Contact me.</h1>
-            <p class="lead">Contact me through email, GitHub, or LinkedIn or send me a message through the following
+            <p class="intro-text lead">Contact me through email, GitHub, or LinkedIn or send me a message through the following
               form.</p>
           </div>
         </div>
@@ -157,26 +180,27 @@
 
         <!-- Contact Form -->
         <div class="row px-2">
-          <form class="col-md-12 py-2 px-0">
+          <form id="contact-form" class="col-md-12 py-2 px-0">
+            <input type="hidden" name="contact_number">
             <!-- Name -->
             <div class="form-row mb-1">
               <div class="col">
-                <input type="text" class="form-control" placeholder="First name" required>
+                <input type="text" class="form-control" placeholder="First name" name="from_name" required>
               </div>
               <div class="col">
-                <input type="text" class="form-control" placeholder="Last name" required>
+                <input type="text" class="form-control" placeholder="Last name" name="last-name" required>
               </div>
             </div>
             <!-- Email -->
             <div class="form-row mb-1">
               <div class="col">
-                <input type="text" class="form-control" placeholder="Email" required>
+                <input type="text" class="form-control" placeholder="Email" name="email" required>
               </div>
             </div>
             <!-- Message -->
             <div class="form-row">
               <div class="col">
-                <textarea rows="3" class="form-control" placeholder="Message" required></textarea>
+                <textarea rows="3" class="form-control" placeholder="Message" name="message" required></textarea>
               </div>
             </div>
             <div class="form-row mx-1 float-right">

@@ -12,7 +12,7 @@ ul{
   font-size: 8vw;
 }
 
-#intro-text{
+.intro-text{
   font-size: 2vw;
 }
 
@@ -20,6 +20,9 @@ ul{
 @media (max-width: 767px) {
   #intro-title {
     font-size: 12vw;
+  }
+  .intro-text{
+    font-size: 4vw;
   }
 }
 
@@ -29,12 +32,7 @@ ul{
     font-size: 10vw;
   }
 }
-/*  */
-/* @media (max-width: 768px) {
-  #intro-text {
-    display: none;
-  }
-} */
+
 
 /* Intro text on screens that are equal to or less than 768px wide */
 @media (max-width: 767px) {
