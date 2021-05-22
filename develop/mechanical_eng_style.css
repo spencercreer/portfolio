@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  height: 100%;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+/* floats */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* main style */
+.section-cards {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* section style */
+.utility {
+    margin-bottom: 20px;
+    padding: 50px;
+    overflow: auto;
+    background-color: #E9ECEF;
+}
+
+.utility img {
+    max-height: 200px;
+}
+
+.utility h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* aside style */
+.product-development {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    background-color: #E9ECEF;
+}
+
+.info {
+    margin-bottom: 32px;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+@media (min-width: 850px) {
+    .product-development {
+      width: 30%;
+      height: 100%;
+    }
+  }
+  
+@media (max-width: 849px) {
+    .product-development {
+      width: 100%;
+      margin: 0px;
+    }
+  }
+
+@media (min-width: 850px) {
+    .section-cards {
+      width: 65%;
+    }
+  }
+  
+@media (max-width: 849px) {
+    .section-cards {
+      width: 100%;
+      margin: 0px;
+    }
+  }

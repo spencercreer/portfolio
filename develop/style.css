@@ -1,0 +1,117 @@
+/* Navbar style */
+ul{
+  margin-bottom: 67px;
+}
+
+/* Intro style */
+#intro{
+  background-color: white;
+}
+
+#intro-title{
+  font-size: 8vw;
+}
+
+#intro-text{
+  font-size: 2vw;
+}
+
+/*  */
+@media (max-width: 767px) {
+  #intro-title {
+    font-size: 12vw;
+  }
+}
+
+/*  576px wide */
+@media (max-width: 576px) {
+  #intro-title {
+    font-size: 10vw;
+  }
+}
+/*  */
+/* @media (max-width: 768px) {
+  #intro-text {
+    display: none;
+  }
+} */
+
+/* Intro text on screens that are equal to or less than 768px wide */
+@media (max-width: 767px) {
+  #intro-text {
+    font-size: 5vw;
+  }
+}
+
+/* Contact page style */
+.contact-title{
+  font-size: 8vw;
+}
+
+/* Main page cards hover style */
+.overlay-text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+
+.hover-overlay {
+  position: relative;
+}
+
+.hover-overlay:hover .overlay-text {
+  display: block;
+  color: white;
+}
+
+.hover-overlay:hover .overlay-img{
+  filter: brightness(40%);
+}
+
+/* keep overlay on screens that are equal to or less than 576px wide */
+@media (max-width: 576px) {
+  .overlay-text {
+    font-size: 10vw;
+    display:block;
+    color: white;
+  }
+  .overlay-img{
+    filter: brightness(40%);
+  }
+}
+
+/* large card text on screens that are equal to or less than 768px wide */
+@media (max-width: 767px) {
+  .overlay-text {
+    font-size: 10vw;
+  }
+}
+
+/* small card text on screens that are equal to or greater than 769px wide */
+@media (min-width: 768px) {
+  .overlay-text {
+    font-size: 3vw;
+  }
+}
+
+.link{
+  list-style-type: none;
+}
+
+.link-text{
+  font-size: 24px;
+}
+
+.link-email:hover{
+  color: rgb(217,48,37);
+}
+
+.link-git:hover{
+  color: rgb(34,110,57);
+}
+
+.link-in:hover{
+  color: rgb(10,102,194);
+}
