@@ -29,8 +29,10 @@
                 emailjs.sendForm('service_zwxq2o3', 'template_ex8lh6v', this)
                     .then(function() {
                         console.log('SUCCESS!');
+                        alert("Your message was sent!");
                     }, function(error) {
                         console.log('FAILED...', error);
+                        alert("OOPS! Something went wrong.");
                     });
             });
         }
